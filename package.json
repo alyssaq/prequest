@@ -1,0 +1,35 @@
+{
+  "name": "prequest",
+  "version": "0.0.2",
+  "description": "Promisified HTTP requests with `bluebird` and `request` modules.",
+  "main": "prequest.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "promise",
+    "bluebird",
+    "promise",
+    "http",
+    "prequest"
+  ],
+  "author": "Alyssa Quek",
+  "dependencies": {
+    "bluebird": "^2.3.2",
+    "request": "^2.42.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.8.1",
+    "express": "^4.8.8",
+    "grunt": "^0.4.5",
+    "grunt-cafe-mocha": "^0.1.12",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-express-server": "^0.4.19",
+    "mocha": "^1.21.4"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.5.x"
+  },
+  "license": "MIT"
+}
