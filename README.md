@@ -1,4 +1,5 @@
 # prequest
+[![Build Status](https://travis-ci.org/alyssaq/prequest.png?branch=master)](https://travis-ci.org/alyssaq/prequest)
 
 Promisified HTTP requests with [`bluebird`](https://github.com/petkaantonov/bluebird/blob/master/API.md) and [`request`](https://github.com/mikeal/request) modules.
 
