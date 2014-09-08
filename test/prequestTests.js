@@ -1,8 +1,6 @@
 'use strict';
 
 var assert = require('assert');
-var express = require('express');
-var supertest = require('supertest');
 var prequest = require('../prequest');
 var port = parseInt(process.env.PORT, 10) || 4567;
 var url = 'http://localhost:' + port;
