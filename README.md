@@ -53,10 +53,6 @@ prequest({
 To use the other methods: [delete, patch, head], specify it in method.
 
 ## Testing
-Install [mocha](http://visionmedia.github.io/mocha/) and [grunt](http://gruntjs.com/).
-
-    $ npm install -g mocha
-    $ npm install -g grunt-cli
 
 To run the tests:
 
