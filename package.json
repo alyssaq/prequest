@@ -20,6 +20,7 @@
   "author": "Alyssa Quek",
   "dependencies": {
     "bluebird": "^2.3.2",
+    "object-assign": "^2.0.0",
     "request": "^2.42.0"
   },
   "devDependencies": {
