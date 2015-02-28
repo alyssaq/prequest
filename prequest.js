@@ -2,15 +2,18 @@
 
 var Promise = require('bluebird');
 var request = require('request');
+var objectAssign = require('object-assign');
 
 function prequest(url, options) {
-  options = options || {};
+  options = objectAssign({}, options);
+
   if (typeof url === 'string') {
     options.url = url;
   } else {
     options = url;
   }
-  options.json = options.hasOwnProperty('json') ? options.json : true;
+
+  options = objectAssign({json: true}, options);
 
   return new Promise(function (resolve, reject) {
     request(options, function (error, response, body) {
