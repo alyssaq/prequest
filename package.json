@@ -1,6 +1,6 @@
 {
   "name": "prequest",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Promisified HTTP requests with `bluebird` and `request` modules.",
   "main": "prequest.js",
   "scripts": {
@@ -19,8 +19,8 @@
   ],
   "author": "Alyssa Quek",
   "dependencies": {
-    "bluebird": "^2.9.13",
-    "object-assign": "^2.0.0",
+    "bluebird": "^3.0.5",
+    "object-assign": "^2.1.1",
     "request": "^2.53.0"
   },
   "devDependencies": {
