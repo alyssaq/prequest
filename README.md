@@ -24,9 +24,9 @@ prequest('http://localhost:4567/api').then(function (body) {
 If you need the full response (e.g. to view headers), specify `arrayResponse: true` to have the response and body in an array. You may use bluebird's `spread` to access the items directly:
 ```js
 prequest({
-  url:'http://localhost:4567/api',
+  url: 'http://localhost:4567/api',
   arrayResponse: true
-}).spread(response, body) {
+}).spread(function (response, body) {
   console.log('Success!', response.headers, body);
 });
 ```
@@ -39,11 +39,11 @@ var prequest = require('prequest');
 
 prequest({
   method: 'POST',
-  url:'http://localhost:4567/api',
+  url: 'http://localhost:4567/api',
   body: {
     someData: [1, 2, 3]
   }
-}).then(body) {
+}).then(function (body) {
   console.log('Success!',  body);
 }).catch(function (err) { // Any HTTP status >= 400 falls here
   console.error('Failed.', err.statusCode, ' >= 400');
